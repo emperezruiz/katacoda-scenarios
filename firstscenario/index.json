@@ -21,20 +21,12 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "*",
-          "target": "~/"
-        }
-      ]
     }
   },
   "environment": {
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "java8"
+    "imageid": "git"
   }
 }
