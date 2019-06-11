@@ -17,10 +17,19 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "init.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "init.sh",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
