@@ -1,4 +1,4 @@
 git init
-git remote add cygnus https://github.com/atSistemas/cygnus.git
-git fetch cygnus
-git checkout cygnus/master -- sadr
+git remote add katacoda https://github.com/emperezruiz/katacoda-scenarios.git
+git fetch katacoda
+git checkout katacoda/master -- first_mservice
