@@ -1,0 +1,14 @@
+# HTTP Server
+server:  
+  port: 3333   # HTTP port
+
+# Spring properties
+spring:  
+  application:
+    name: first-service
+
+logging:  
+  file: logs/${spring.application.name}.log
+  level:
+    org.springframework.cloud: 'DEBUG'
+    com.atsistemas: 'DEBUG'
